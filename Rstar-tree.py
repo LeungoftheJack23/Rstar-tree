@@ -162,7 +162,7 @@ def main():
         timeList.append(f"{endTime - startTime:.4f}")
 
         # print the output first, then save to file
-        print(f"Time taken to construct the R-tree: {timeList[-1]} seconds")
+        print(f"Time taken to construct the R*-tree: {timeList[-1]} seconds")
         # only show structure in console if amount of points <= 1000
         if len(points) <= 1000:
             print("R*-tree structure:")
@@ -173,7 +173,7 @@ def main():
         output.append(f"Number of points: {numPoints}")
         output.append(f"Generate points method: {pointMethod}")
         output.append(f"Maximum number of children: {maxChildren}")
-        output.append(f"Time taken to construct the R-tree: {timeList[-1]} seconds\n")
+        output.append(f"Time taken to construct the R*-tree: {timeList[-1]} seconds\n")
         output.append("R*-tree structure:")
         output.append(rtree.display())
 
