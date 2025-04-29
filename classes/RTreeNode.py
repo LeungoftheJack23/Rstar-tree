@@ -1,4 +1,4 @@
-# RTreeNode.py, contains the R*-tree implementation
+# RTreeNode.py, contains in the R*-tree implementation
 
 class RTreeNode:
     def __init__(self, isLeaf=True):
