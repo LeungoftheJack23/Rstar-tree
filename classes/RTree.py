@@ -88,19 +88,6 @@ class RTree:
                 return parent
         return None
 
-    def search(self, rectangle):
-        return self.searchNode(self.root, rectangle)
-
-    def searchNode(self, node, rectangle):
-        if node.isLeaf:
-            return [child for child in node.children if child.isOverlap(rectangle)]
-        else:
-            results = []
-            for child in node.children:
-                if child.boundingRectangle.isOverlap(rectangle):
-                    results.extend(self.searchNode(child, rectangle))
-            return results
-
     def display(self, node=None, level=0):
         # Display the R-tree structure
 
