@@ -1,3 +1,5 @@
+# Rectangle.py, contains in the R*-tree implementation
+
 class Rectangle:
     def __init__(self, minX, minY, maxX, maxY):
         self.minX = minX
