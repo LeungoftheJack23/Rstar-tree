@@ -1,0 +1,188 @@
+Method: MBR Area Enlargement
+Number of points: 100
+Generate points method: Similar
+Maximum number of children: 3
+Time taken to construct the R-tree: 0.0029 seconds
+
+R*-tree structure:
+Node: Rectangle(19.67, 20.26, 77.21, 96.92), Children: 2
+    Node: Rectangle(19.73, 20.26, 77.2, 96.92), Children: 2
+        Node: Rectangle(19.76, 31.91, 77.04, 73.14), Children: 3
+            Node: Rectangle(19.76, 31.91, 77.02, 71.84), Children: 3
+                Node: Rectangle(19.76, 31.91, 30.64, 64.27), Children: 3
+                    Leaf: Rectangle(30.55, 61.52, 30.64, 64.27), Children: 2
+                        Child: (30.55, 64.27)
+                        Child: (30.64, 61.52)
+                    Leaf: Rectangle(19.76, 31.91, 30.55, 61.43), Children: 2
+                        Child: (30.55, 61.43)
+                        Child: (19.76, 31.91)
+                    Leaf: Rectangle(19.81, 31.96, 27.9, 60.9), Children: 2
+                        Child: (27.9, 60.9)
+                        Child: (19.81, 31.96)
+                Node: Rectangle(23.97, 55.72, 77.02, 71.84), Children: 2
+                    Leaf: Rectangle(23.97, 64.32, 30.6, 71.84), Children: 3
+                        Child: (23.97, 71.83)
+                        Child: (23.98, 71.84)
+                        Child: (30.6, 64.32)
+                    Leaf: Rectangle(30.7, 55.72, 77.02, 61.58), Children: 2
+                        Child: (30.7, 61.58)
+                        Child: (77.02, 55.72)
+                Node: Rectangle(23.94, 59.11, 34.93, 71.82), Children: 2
+                    Leaf: Rectangle(23.94, 71.8, 23.96, 71.82), Children: 2
+                        Child: (23.96, 71.82)
+                        Child: (23.94, 71.8)
+                    Leaf: Rectangle(34.83, 59.11, 34.93, 59.21), Children: 2
+                        Child: (34.83, 59.11)
+                        Child: (34.93, 59.21)
+            Node: Rectangle(19.84, 31.99, 77.04, 73.14), Children: 2
+                Node: Rectangle(24.02, 55.73, 77.04, 73.14), Children: 3
+                    Leaf: Rectangle(24.02, 71.88, 73.19, 73.14), Children: 3
+                        Child: (73.19, 73.14)
+                        Child: (24.02, 71.88)
+                        Child: (73.17, 73.12)
+                    Leaf: Rectangle(34.87, 55.73, 77.04, 59.15), Children: 3
+                        Child: (77.03, 55.73)
+                        Child: (34.87, 59.15)
+                        Child: (77.04, 55.74)
+                    Leaf: Rectangle(24.04, 71.9, 73.16, 73.11), Children: 2
+                        Child: (73.16, 73.11)
+                        Child: (24.04, 71.9)
+                Node: Rectangle(19.84, 31.99, 30.58, 64.24), Children: 2
+                    Leaf: Rectangle(19.84, 31.99, 27.86, 60.86), Children: 2
+                        Child: (19.84, 31.99)
+                        Child: (27.86, 60.86)
+                    Leaf: Rectangle(30.52, 61.46, 30.58, 64.24), Children: 2
+                        Child: (30.58, 61.46)
+                        Child: (30.52, 64.24)
+            Node: Rectangle(27.88, 59.18, 34.98, 64.23), Children: 2
+                Node: Rectangle(27.88, 60.88, 30.51, 64.23), Children: 2
+                    Leaf: Rectangle(30.42, 64.14, 30.51, 64.23), Children: 3
+                        Child: (30.51, 64.23)
+                        Child: (30.42, 64.14)
+                        Child: (30.45, 64.17)
+                    Leaf: Rectangle(27.88, 60.88, 27.91, 60.91), Children: 2
+                        Child: (27.91, 60.91)
+                        Child: (27.88, 60.88)
+                Node: Rectangle(34.9, 59.18, 34.98, 59.26), Children: 2
+                    Leaf: Rectangle(34.92, 59.2, 34.98, 59.26), Children: 2
+                        Child: (34.92, 59.2)
+                        Child: (34.98, 59.26)
+                    Leaf: Rectangle(34.9, 59.18, 34.94, 59.22), Children: 2
+                        Child: (34.94, 59.22)
+                        Child: (34.9, 59.18)
+        Node: Rectangle(19.73, 20.26, 77.2, 96.92), Children: 2
+            Node: Rectangle(19.73, 31.88, 77.2, 71.79), Children: 2
+                Node: Rectangle(19.73, 31.88, 27.85, 60.85), Children: 2
+                    Leaf: Rectangle(19.73, 31.88, 19.79, 31.94), Children: 3
+                        Child: (19.79, 31.94)
+                        Child: (19.73, 31.88)
+                        Child: (19.74, 31.89)
+                    Leaf: Rectangle(19.78, 31.93, 27.85, 60.85), Children: 2
+                        Child: (27.85, 60.85)
+                        Child: (19.78, 31.93)
+                Node: Rectangle(23.92, 55.9, 77.2, 71.79), Children: 2
+                    Leaf: Rectangle(30.74, 55.9, 77.2, 61.62), Children: 2
+                        Child: (77.2, 55.9)
+                        Child: (30.74, 61.62)
+                    Leaf: Rectangle(23.92, 71.78, 23.93, 71.79), Children: 2
+                        Child: (23.93, 71.79)
+                        Child: (23.92, 71.78)
+            Node: Rectangle(23.91, 20.26, 72.03, 96.92), Children: 3
+                Node: Rectangle(71.86, 96.75, 72.03, 96.92), Children: 3
+                    Leaf: Rectangle(71.91, 96.8, 71.96, 96.85), Children: 3
+                        Child: (71.94, 96.83)
+                        Child: (71.91, 96.8)
+                        Child: (71.96, 96.85)
+                    Leaf: Rectangle(72.0, 96.89, 72.03, 96.92), Children: 3
+                        Child: (72.01, 96.9)
+                        Child: (72.03, 96.92)
+                        Child: (72.0, 96.89)
+                    Leaf: Rectangle(71.86, 96.75, 71.95, 96.84), Children: 2
+                        Child: (71.86, 96.75)
+                        Child: (71.95, 96.84)
+                Node: Rectangle(23.99, 20.34, 24.09, 20.44), Children: 3
+                    Leaf: Rectangle(23.99, 20.34, 24.09, 20.44), Children: 2
+                        Child: (24.09, 20.44)
+                        Child: (23.99, 20.34)
+                    Leaf: Rectangle(24.03, 20.38, 24.08, 20.43), Children: 2
+                        Child: (24.08, 20.43)
+                        Child: (24.03, 20.38)
+                    Leaf: Rectangle(24.01, 20.36, 24.04, 20.39), Children: 2
+                        Child: (24.01, 20.36)
+                        Child: (24.04, 20.39)
+                Node: Rectangle(23.91, 20.26, 24.06, 20.41), Children: 2
+                    Leaf: Rectangle(23.91, 20.26, 23.98, 20.33), Children: 2
+                        Child: (23.98, 20.33)
+                        Child: (23.91, 20.26)
+                    Leaf: Rectangle(24.0, 20.35, 24.06, 20.41), Children: 2
+                        Child: (24.06, 20.41)
+                        Child: (24.0, 20.35)
+    Node: Rectangle(19.67, 31.82, 77.21, 73.22), Children: 2
+        Node: Rectangle(19.77, 31.92, 34.97, 71.77), Children: 2
+            Node: Rectangle(23.87, 59.14, 34.97, 71.77), Children: 2
+                Node: Rectangle(23.87, 59.25, 34.97, 71.77), Children: 2
+                    Leaf: Rectangle(30.73, 59.25, 34.97, 61.61), Children: 2
+                        Child: (30.73, 61.61)
+                        Child: (34.97, 59.25)
+                    Leaf: Rectangle(23.87, 71.73, 23.91, 71.77), Children: 2
+                        Child: (23.91, 71.77)
+                        Child: (23.87, 71.73)
+                Node: Rectangle(30.56, 59.14, 34.86, 64.29), Children: 2
+                    Leaf: Rectangle(30.56, 64.28, 30.57, 64.29), Children: 2
+                        Child: (30.57, 64.29)
+                        Child: (30.56, 64.28)
+                    Leaf: Rectangle(30.69, 59.14, 34.86, 61.57), Children: 2
+                        Child: (30.69, 61.57)
+                        Child: (34.86, 59.14)
+            Node: Rectangle(19.77, 31.92, 30.57, 64.13), Children: 2
+                Node: Rectangle(27.75, 60.75, 27.84, 60.84), Children: 2
+                    Leaf: Rectangle(27.79, 60.79, 27.84, 60.84), Children: 2
+                        Child: (27.79, 60.79)
+                        Child: (27.84, 60.84)
+                    Leaf: Rectangle(27.75, 60.75, 27.78, 60.78), Children: 2
+                        Child: (27.75, 60.75)
+                        Child: (27.78, 60.78)
+                Node: Rectangle(19.77, 31.92, 30.57, 64.13), Children: 2
+                    Leaf: Rectangle(30.41, 61.44, 30.57, 64.13), Children: 3
+                        Child: (30.57, 61.45)
+                        Child: (30.41, 64.13)
+                        Child: (30.56, 61.44)
+                    Leaf: Rectangle(19.77, 31.92, 27.94, 60.94), Children: 2
+                        Child: (19.77, 31.92)
+                        Child: (27.94, 60.94)
+        Node: Rectangle(19.67, 31.82, 77.21, 73.22), Children: 2
+            Node: Rectangle(73.21, 55.75, 77.21, 73.22), Children: 2
+                Node: Rectangle(77.05, 55.75, 77.21, 55.91), Children: 2
+                    Leaf: Rectangle(77.05, 55.75, 77.21, 55.91), Children: 3
+                        Child: (77.21, 55.91)
+                        Child: (77.18, 55.88)
+                        Child: (77.05, 55.75)
+                    Leaf: Rectangle(77.16, 55.86, 77.17, 55.87), Children: 2
+                        Child: (77.16, 55.86)
+                        Child: (77.17, 55.87)
+                Node: Rectangle(73.21, 73.16, 73.27, 73.22), Children: 2
+                    Leaf: Rectangle(73.22, 73.17, 73.27, 73.22), Children: 3
+                        Child: (73.27, 73.22)
+                        Child: (73.22, 73.17)
+                        Child: (73.23, 73.18)
+                    Leaf: Rectangle(73.21, 73.16, 73.24, 73.19), Children: 2
+                        Child: (73.21, 73.16)
+                        Child: (73.24, 73.19)
+            Node: Rectangle(19.67, 31.82, 77.19, 55.89), Children: 2
+                Node: Rectangle(77.06, 55.76, 77.19, 55.89), Children: 3
+                    Leaf: Rectangle(77.12, 55.82, 77.19, 55.89), Children: 2
+                        Child: (77.12, 55.82)
+                        Child: (77.19, 55.89)
+                    Leaf: Rectangle(77.06, 55.76, 77.14, 55.84), Children: 2
+                        Child: (77.14, 55.84)
+                        Child: (77.06, 55.76)
+                    Leaf: Rectangle(77.07, 55.77, 77.09, 55.79), Children: 2
+                        Child: (77.07, 55.77)
+                        Child: (77.09, 55.79)
+                Node: Rectangle(19.67, 31.82, 19.72, 31.87), Children: 2
+                    Leaf: Rectangle(19.67, 31.82, 19.72, 31.87), Children: 2
+                        Child: (19.72, 31.87)
+                        Child: (19.67, 31.82)
+                    Leaf: Rectangle(19.68, 31.83, 19.71, 31.86), Children: 2
+                        Child: (19.71, 31.86)
+                        Child: (19.68, 31.83)
