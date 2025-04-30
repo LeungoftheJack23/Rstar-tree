@@ -92,45 +92,42 @@ def main():
             # generate points method (all round positions to 2 d.p.)
             if pointMethod == "Random":
                 # generate random points (can repeat)
-                points = set()
+                points = list()
                 while len(points) < numPoints:
                     x = round(random.random()*100, 2)
                     y = round(random.random()*100, 2)
-                    points.add((x, y))
+                    points.append((x, y))
             elif pointMethod == "Uniform":
                 # generate unique random points (no repeats)
-                points = set()
+                points = list()
                 while len(points) < numPoints:
                     x = round(random.uniform(0, 100), 2)
                     y = round(random.uniform(0, 100), 2)
-                    points.add((x, y))
+                    points.append((x, y))
             elif pointMethod == "Similar":
                 # generate base points for other points later
                 basePoints = set()
                 while len(basePoints) < pow(numPoints, 0.5):
-                    x = round(random.uniform(0, 100), 2)
-                    y = round(random.uniform(0, 100), 2)
+                    x = round(random.random()*100, 2)
+                    y = round(random.random()*100, 2)
                     basePoints.add((x, y))
-
+                basePoints = list(basePoints)
                 # apply small random offsets to base points for other points
-                points = set(basePoints)
+                points = basePoints
                 while len(points) < numPoints:
-                    basePoint = random.choice(list(basePoints))
-                    offset = round(random.uniform(-0.1, 0.1), 2)
+                    basePoint = random.choice(basePoints)
+                    offset = round(random.random()*0.2-0.1, 2)
                     simPoint = (round(basePoint[0] + offset, 2), round(basePoint[1] + offset, 2))
-                    points.add(simPoint)
+                    points.append(simPoint)
             elif pointMethod == "Perlin Noise":
                 # generate Perlin Noise points
-                points = set()
+                points = list()
                 while len(points) < numPoints:
                     x = round(random.uniform(0, 100), 2)
                     y = round(random.uniform(0, 100), 2)
                     noise_value = noise.pnoise2(x / 10, y / 10, octaves=1)
                     if noise_value > 0.5:
-                        points.add((x, y))
-
-            # convert set to list
-            points = list(points)
+                        points.append((x, y))
             
             # only save the points to a file if it is not from the loaded file (Name: Random p100 001.txt, Random p100 002.txt, ...)
             dir = "points"
